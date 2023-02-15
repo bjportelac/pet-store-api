@@ -25,7 +25,7 @@ Route.group(() => {
   
   Route.get("/list_all", "AnimalsController.getAllAnimals");
   Route.get("/under_eight", "AnimalsController.getAnimalByAge");
-  Route.get("/filter_by_species/:animID", "AnimalsController.getAnimalBySpecies");
+  Route.get("/filter_by_species/:animID","AnimalsController.getAnimalBySpecies");
   
   Route.put("/update_pet/:animID", "AnimalsController.updateAnimal");
   
